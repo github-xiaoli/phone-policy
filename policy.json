@@ -1,0 +1,10 @@
+{
+  "version": 1,
+  "global": {
+    "dailyLimitSec": 0,
+    "disableStart": "",
+    "disableEnd": "",
+    "exemptGroups": []
+  },
+  "groups": []
+}
