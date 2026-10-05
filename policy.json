@@ -1,10 +1,1 @@
-{
-  "version": 1,
-  "global": {
-    "dailyLimitSec": 0,
-    "disableStart": "",
-    "disableEnd": "",
-    "exemptGroups": []
-  },
-  "groups": []
-}
+{"version":1,"global":{"dailyLimitSec":3600,"disableStart":"22:30","disableEnd":"07:00","exemptGroups":["g_comm"]},"groups":[{"id":"g_comm","name":"通信类","packages":["com.tencent.mm"],"dailyLimitSec":0,"weeklyLimitSec":0,"sessionLimitSec":0,"restSec":60,"disableStart":"","disableEnd":""},{"id":"g_game","name":"游戏类","packages":["com.tencent.tmgp.sgame"],"dailyLimitSec":1800,"weeklyLimitSec":0,"sessionLimitSec":900,"restSec":300,"disableStart":"","disableEnd":""}]}
