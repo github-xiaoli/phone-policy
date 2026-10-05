@@ -1,1 +1,1 @@
-{"version":1,"groups":[{"id":"g_game","name":"游戏软件","pkgs":["com.deepseek.chat"],"dailyLimitSec":900,"weeklyLimitSec":3600,"sessionLimitSec":300,"restSec":60,"disableStart":"22:00","disableEnd":"07:00"},{"id":"g_study","name":"学习软件","pkgs":[],"dailyLimitSec":7200,"weeklyLimitSec":36000,"sessionLimitSec":1800,"restSec":0,"disableStart":"","disableEnd":""}],"global":{"dailyLimitSec":599999940,"disableStart":"","disableEnd":"","exemptGroups":[]}}
+{"version":1,"groups":[],"global":{"dailyLimitSec":599999940,"disableStart":"","disableEnd":"","exemptGroups":[]}}
