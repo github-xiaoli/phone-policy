@@ -1,1 +1,1 @@
-{"version":1,"global":{"dailyLimitSec":0,"disableStart":"","disableEnd":"","exemptGroups":[]},"groups":[{"id":"g_muwfucgq","name":"视频软件","packages":[],"dailyLimitSec":0,"weeklyLimitSec":0,"sessionLimitSec":180,"restSec":60,"hardDisable":false,"disableStart":"","disableEnd":""}]}
+{"version":1,"global":{"dailyLimitSec":0,"disableStart":"","disableEnd":"","exemptGroups":[]},"groups":[{"id":"g_muwfucgq","name":"视频软件","packages":["tv.danmaku.bili"],"dailyLimitSec":0,"weeklyLimitSec":0,"sessionLimitSec":180,"restSec":60,"hardDisable":false,"disableStart":"","disableEnd":""}]}
