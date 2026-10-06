@@ -1,1 +1,1 @@
-{"version":1,"groups":[],"global":{"dailyLimitSec":60,"disableStart":"","disableEnd":"","exemptGroups":[]}}
+{"version":1,"groups":[{"id":"g_muvy2qes","name":"视频软件","packages":[],"dailyLimitSec":1800,"weeklyLimitSec":0,"sessionLimitSec":300,"restSec":0,"disableStart":"","disableEnd":""}],"global":{"dailyLimitSec":60,"disableStart":"","disableEnd":"","exemptGroups":[]}}
