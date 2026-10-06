@@ -1,1 +1,1 @@
-{"version":1,"groups":[],"global":{"dailyLimitSec":0,"disableStart":"","disableEnd":"","exemptGroups":[]}}
+{"version":1,"groups":[],"global":{"dailyLimitSec":60,"disableStart":"","disableEnd":"","exemptGroups":[]}}
