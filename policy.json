@@ -1,1 +1,56 @@
-{  "global": {    "dailyLimitSec": 0,    "disableEnd": "",    "disableStart": "",    "exemptGroups": [],    "weekday": {}  },  "groups": [    {      "dailyLimitSec": 5,      "disableEnd": "",      "disableStart": "",      "hardDisable": true,      "id": "g_test_hard",      "name": "测试停用组",      "packages": ["com.hp.printercontrol", "org.localsend.localsend_app"],      "restSec": 60,      "sessionLimitSec": 0,      "weeklyLimitSec": 0    }  ],  "version": 2}
+{
+  "version": 1,
+  "global": {
+    "dailyLimitSec": 0,
+    "disableStart": "",
+    "disableEnd": "",
+    "exemptGroups": ["communication"]
+  },
+  "groups": [
+    {
+      "id": "video",
+      "name": "视频软件",
+      "packages": ["com.ss.android.ugc.aweme", "com.bytedance.lark", "com.tencent.qqlive", "com.ss.android.article.news"],
+      "dailyLimitSec": 3600,
+      "weeklyLimitSec": 0,
+      "sessionLimitSec": 1800,
+      "restSec": 300,
+      "hardDisable": true,
+      "disableStart": "",
+      "disableEnd": ""
+    },
+    {
+      "id": "game",
+      "name": "游戏软件",
+      "packages": ["com.tencent.tmgp.sgame", "com.netease.minecraft", "com.miHoYo.Yuanshen"],
+      "dailyLimitSec": 7200,
+      "weeklyLimitSec": 0,
+      "sessionLimitSec": 3600,
+      "restSec": 600,
+      "disableStart": "",
+      "disableEnd": ""
+    },
+    {
+      "id": "communication",
+      "name": "通信软件",
+      "packages": ["com.tencent.mm", "com.tencent.mobileqq", "com.google.android.gm"],
+      "dailyLimitSec": 0,
+      "weeklyLimitSec": 0,
+      "sessionLimitSec": 0,
+      "restSec": 0,
+      "disableStart": "",
+      "disableEnd": ""
+    },
+    {
+      "id": "study",
+      "name": "学习软件",
+      "packages": ["com.zhangyue.read", "com.jingdong.app.reader", "com.xuefei"],
+      "dailyLimitSec": 0,
+      "weeklyLimitSec": 0,
+      "sessionLimitSec": 0,
+      "restSec": 0,
+      "disableStart": "",
+      "disableEnd": ""
+    }
+  ]
+}
